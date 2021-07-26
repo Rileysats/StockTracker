@@ -4,21 +4,23 @@ import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 
 const styles = {
   brand: {
-    fontSize: "1.7vmax",
-    margin:"auto"
+    fontSize: "2.2vmax",
+    margin:"auto",
+    fontFamily: "Helvetica Neue"
   },
   navbar: {
-    fontSize: "1.7vmax",
-    width:'100%'
+    width:'100%',
+    fontSize: "1.2vmax"
   },
   rightNav: {
-    marginRight: "1rem"
+    marginRight: "1rem",
+    
   },
   navButton:{
     borderRight: "2px solid rgb(255,255,255,0.55)",
     paddingRight: "10px",
     paddingLeft: "10px",
-    height:"10%"
+    height:"10%",
   },
   search: {
     width: "50%",
@@ -44,7 +46,7 @@ class NavBar extends React.Component{
         <div style={{width:"33.3%"}}>
           <Navbar.Collapse id="basic-navbar-nav">
           <Navbar.Brand style={styles.brand} href="/">
-          Logo
+          stonks.
           </Navbar.Brand>
           </Navbar.Collapse>
         </div>  

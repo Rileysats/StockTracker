@@ -4,6 +4,7 @@ class Watchlists extends React.Component {
   render() {
   return (
     <div>
+      asdad
     </div>
   );
 }}
