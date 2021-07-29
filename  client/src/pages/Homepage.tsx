@@ -1,11 +1,12 @@
 import React from 'react';
 
-class Graph extends React.Component {
+class Homepage extends React.Component {
   render() {
   return (
     <div>
+
     </div>
   );
 }}
 
-export default Graph;
+export default Homepage;
